@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-export DH_GOLANG_INSTALL_EXTRA := web/*
+export DH_GOLANG_INSTALL_EXTRA := web
 
 override_dh_auto_install:
 	dh_auto_install -- --no-source
