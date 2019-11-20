@@ -1,8 +1,20 @@
+dex (2.23.0-1bb1) unstable; urgency=medium
+
+  * Rebasing our modifications to the updated upstream
+
+ -- Attila Magyar <attila.magyar@balabit.com>  Wed, 18 Mar 2020 19:26:30 +0200
+
 dex (2.23.0-1) unstable; urgency=medium
 
   * Update upstream version
 
  -- Attila Magyar <attila.magyar@balabit.com>  Wed, 18 Mar 2020 14:40:20 +0200
+
+dex (2.19.0-1bb2) unstable; urgency=medium
+
+  * Adding user and a systemd service
+
+ -- Kolarovszki Zoltán <zoltan.kolarovszki@balabit.com>  Fri, 22 Nov 2019 10:39:59 +0100
 
 dex (2.19.0-1bb1) unstable; urgency=medium
 

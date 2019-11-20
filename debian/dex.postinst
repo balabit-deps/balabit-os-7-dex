@@ -1,0 +1,11 @@
+#!/bin/bash -e
+
+if ! getent group dex >/dev/null; then
+    groupadd --system dex
+fi
+
+if ! getent passwd dex >/dev/null; then
+    useradd --shell /bin/false --gid dex --system dex
+fi
+
+#DEBHELPER#
