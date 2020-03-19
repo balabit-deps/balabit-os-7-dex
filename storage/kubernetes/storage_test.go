@@ -61,7 +61,7 @@ func (s *StorageTestSuite) SetupTest() {
 	s.Require().NoError(err)
 	defer f.Close()
 
-	_, err = f.WriteString(strings.ReplaceAll(kubeconfigTemplate, "SERVERURL", s.controlPlane.APIURL().String()))
+	_, err = f.WriteString(strings.Replace(kubeconfigTemplate, "SERVERURL", s.controlPlane.APIURL().String(), -1))
 	s.Require().NoError(err)
 
 	config := Config{
