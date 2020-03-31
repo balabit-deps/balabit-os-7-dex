@@ -1,3 +1,7 @@
+dex (2.23.0-1bb3) unstable; urgency=medium
+  * Remove oidc callback checking
+
+ -- Kristof Bajnok <kristof.bajnok@balabit.com>  Mon, 30 Mar 2020 07:08:43 +0200
 dex (2.23.0-1bb2) unstable; urgency=medium
 
   * Fix building on Bionic
