@@ -1,3 +1,7 @@
+dex (2.23.0-1bb4) unstable; urgency=medium
+  * Add EnvironmentFile config for the dex service
+
+ -- Tamas Falusi <tamas.falusi@balabit.com>  Mon, 10 Apr 2020 11:21:54 +0200
 dex (2.23.0-1bb3) unstable; urgency=medium
   * Remove oidc callback checking
 
